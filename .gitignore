@@ -1,0 +1,13 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+./cardapio-frontend/node_modules
+./cardapio-frontend/.next/
+./cardapio-frontend/npm-debug.log*
+./cardapio-frontend/.env
+./cardapio-frontend/.local
+./cardapio-frontend/next-env.d.ts
+./cardapio-frontend/*.tsbuildinfo
+
+
+./cardapio-api/.env
