@@ -11,3 +11,4 @@
 
 
 ./cardapio-api/.env
+./cardapio-api/__pycache__
