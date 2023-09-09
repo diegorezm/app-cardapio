@@ -89,6 +89,9 @@ def get_food_id(id):
 @app.post("/api/food")
 def food_insert():
     conn = create_connection()
+    if not conn:
+        return {"error": "Unable to establish a database connection."}, 500
+
     try:
         data = request.get_json()
         title = data["title"]
@@ -109,6 +112,8 @@ def food_insert():
 @app.delete("/api/food/<int:id>")
 def delete_food(id):
     conn = create_connection()    
+    if not conn:
+        return {"error": "Unable to establish a database connection."}, 500
     try:
      with conn:
         with conn.cursor() as curr:
