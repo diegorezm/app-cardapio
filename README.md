@@ -6,4 +6,4 @@ Inspirado por: ["Criando Aplicação Fullstack do Zero"](https://www.youtube.com
 
 
 ## Showcase
-<video width="630" height="300" src="https://www.youtube.com/watch?v=TUMEW0zo2nQ"></video>
+![video](https://www.youtube.com/watch?v=TUMEW0zo2nQ)
