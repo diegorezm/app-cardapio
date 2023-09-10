@@ -5,5 +5,3 @@ Aplicação fullstack com backend feito com python (flask e postgresql) e fronte
 Inspirado por: ["Criando Aplicação Fullstack do Zero"](https://www.youtube.com/watch?v=WHruc3_2z68)
 
 
-## Showcase
-![video](https://www.youtube.com/watch?v=TUMEW0zo2nQ)
