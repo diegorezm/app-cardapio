@@ -6,4 +6,4 @@ Inspirado por: ["Criando Aplicação Fullstack do Zero"](https://www.youtube.com
 
 
 ## Showcase
-![](showcase.mp4)
+![](https://raw.githubusercontent.com/diegorezm/app-cardapio/main/showcase.mp4)
