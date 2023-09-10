@@ -1,5 +1,5 @@
 from flask import Flask, request
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 import os
 import psycopg2
 from psycopg2 import OperationalError
@@ -91,7 +91,6 @@ def food_insert():
     conn = create_connection()
     if not conn:
         return {"error": "Unable to establish a database connection."}, 500
-
     try:
         data = request.get_json()
         title = data["title"]
